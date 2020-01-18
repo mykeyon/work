@@ -94,7 +94,7 @@ class ArticleWay extends React.PureComponent{
         return (
             <div className = "ArticleWay">
                 {
-                    conList.map(item => <ArticleOne Article = {item} />)
+                    conList.map(item => <ArticleOne Article = {item} key = { item.number } />)
                 }
             </div>
         )

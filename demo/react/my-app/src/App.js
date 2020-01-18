@@ -3,11 +3,13 @@ import logo from './logo.svg';
 import { TabBar } from 'antd-mobile';
 import './App.css';
 import IndexPage from './projectPage/indexPage/indexPage';
+import FoodIndexPage from './projectPage/foodMay/indexPage';
+import PrivatePage from './projectPage/privatePage/PrivatePage';
 class App extends React.Component{
   constructor(props) {
     super(props);
     this.state = {
-      selectedTab: 'blueTab',
+      selectedTab: 'greenTab',
     };
   }
 
@@ -20,26 +22,84 @@ class App extends React.Component{
   }
 
   render() {
+    let indexOutStyle = {
+      width: '22px',
+      height: '22px',
+      backgroundImage: `url(${require('./image/icon/index_out.png')})`,
+      backgroundPosition: 'center center',
+      backgroundSize: '21px 21px',
+      backgroundRepeat: 'no-repeat'
+    }
+    let indexOnStyle = {
+      width: '22px',
+      height: '22px',
+      backgroundImage: `url(${require('./image/icon/index_on.png')})`,
+      backgroundPosition: 'center center',
+      backgroundSize: '21px 21px',
+      backgroundRepeat: 'no-repeat'
+    }
+    let foodOutStyle = {
+      width: '22px',
+      height: '22px',
+      backgroundImage: `url(${require('./image/icon/food_out.png')})`,
+      backgroundPosition: 'center center',
+      backgroundSize: '21px 21px',
+      backgroundRepeat: 'no-repeat'
+    }
+    let foodOnStyle = {
+      width: '22px',
+      height: '22px',
+      backgroundImage: `url(${require('./image/icon/food_on.png')})`,
+      backgroundPosition: 'center center',
+      backgroundSize: '21px 21px',
+      backgroundRepeat: 'no-repeat'
+    }
+    let privateOutStyle = {
+      width: '22px',
+      height: '22px',
+      backgroundImage: `url(${require('./image/icon/private_out.png')})`,
+      backgroundPosition: 'center center',
+      backgroundSize: '21px 21px',
+      backgroundRepeat: 'no-repeat'
+    }
+    let privateOnStyle = {
+      width: '22px',
+      height: '22px',
+      backgroundImage: `url(${require('./image/icon/private_on.png')})`,
+      backgroundPosition: 'center center',
+      backgroundSize: '21px 21px',
+      backgroundRepeat: 'no-repeat'
+    }
+    let MineOutStyle = {
+      width: '22px',
+      height: '22px',
+      backgroundImage: `url(${require('./image/icon/mine_out.png')})`,
+      backgroundPosition: 'center center',
+      backgroundSize: '21px 21px',
+      backgroundRepeat: 'no-repeat'
+    }
+    let MineOnStyle = {
+      width: '22px',
+      height: '22px',
+      backgroundImage: `url(${require('./image/icon/mine_on.png')})`,
+      backgroundPosition: 'center center',
+      backgroundSize: '21px 21px',
+      backgroundRepeat: 'no-repeat'
+    }
     return (
       <div style={{ position: 'fixed', height: '100%', width: '100%', top: 0 }}>
         <TabBar
           unselectedTintColor="#949494"
-          tintColor="#33A3F4"
+          tintColor="#43bf92"
           barTintColor="white"
         >
           <TabBar.Item
-            title="Life"
+            title="首页"
             key="Life"
-            icon={<div style={{
-              width: '22px',
-              height: '22px',
-              background: 'url(https://zos.alipayobjects.com/rmsportal/sifuoDUQdAFKAVcFGROC.svg) center center /  21px 21px no-repeat' }}
+            icon={<div style={ indexOutStyle }
             />
             }
-            selectedIcon={<div style={{
-              width: '22px',
-              height: '22px',
-              background: 'url(https://zos.alipayobjects.com/rmsportal/iSrlOTqrKddqbOmlvUfq.svg) center center /  21px 21px no-repeat' }}
+            selectedIcon={<div style={ indexOnStyle }
             />
             }
             selected={this.state.selectedTab === 'blueTab'}
@@ -55,20 +115,14 @@ class App extends React.Component{
           </TabBar.Item>
           <TabBar.Item
             icon={
-              <div style={{
-                width: '22px',
-                height: '22px',
-                background: 'url(https://gw.alipayobjects.com/zos/rmsportal/BTSsmHkPsQSPTktcXyTV.svg) center center /  21px 21px no-repeat' }}
+              <div style={ foodOutStyle }
               />
             }
             selectedIcon={
-              <div style={{
-                width: '22px',
-                height: '22px',
-                background: 'url(https://gw.alipayobjects.com/zos/rmsportal/ekLecvKBnRazVLXbWOnE.svg) center center /  21px 21px no-repeat' }}
+              <div style={ foodOnStyle }
               />
             }
-            title="Koubei"
+            title="食疗坊"
             key="Koubei"
             badge={'new'}
             selected={this.state.selectedTab === 'redTab'}
@@ -79,24 +133,18 @@ class App extends React.Component{
             }}
             data-seed="logId1"
           >
-            {this.renderContent('Koubei')}
+            <FoodIndexPage />
           </TabBar.Item>
           <TabBar.Item
             icon={
-              <div style={{
-                width: '22px',
-                height: '22px',
-                background: 'url(https://zos.alipayobjects.com/rmsportal/psUFoAMjkCcjqtUCNPxB.svg) center center /  21px 21px no-repeat' }}
+              <div style={ privateOutStyle }
               />
             }
             selectedIcon={
-              <div style={{
-                width: '22px',
-                height: '22px',
-                background: 'url(https://zos.alipayobjects.com/rmsportal/IIRLrXXrFAhXVdhMWgUI.svg) center center /  21px 21px no-repeat' }}
+              <div style={ privateOnStyle }
               />
             }
-            title="Friend"
+            title="私人定制"
             key="Friend"
             dot
             selected={this.state.selectedTab === 'greenTab'}
@@ -106,12 +154,12 @@ class App extends React.Component{
               });
             }}
           >
-            {this.renderContent('Friend')}
+            <PrivatePage />
           </TabBar.Item>
           <TabBar.Item
-            icon={{ uri: 'https://zos.alipayobjects.com/rmsportal/asJMfBrNqpMMlVpeInPQ.svg' }}
-            selectedIcon={{ uri: 'https://zos.alipayobjects.com/rmsportal/gjpzzcrPMkhfEqgbYvmN.svg' }}
-            title="My"
+            icon={ <div style = { MineOutStyle }></div> }
+            selectedIcon={ <div style = { MineOnStyle }></div>}
+            title="我的"
             key="my"
             selected={this.state.selectedTab === 'yellowTab'}
             onPress={() => {

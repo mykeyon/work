@@ -1,0 +1,71 @@
+@BannerView: FoodBannerView;
+@FoodTabBar: FoodTabBar;
+
+.@{BannerView} {
+    background-color: #fff;
+    padding: 10px 15px;
+    border-bottom: 1px solid #ddd;
+    margin: 0 auto;
+
+    .BannerViewOne {
+        display: inline-block;
+        width: 66px;
+        text-align: center;
+
+        img {
+            width: 50px;
+            display: block;
+            margin: 3px auto;
+        }
+
+        span {
+            display: block;
+            margin: 3px auto;
+            font-size: 12px;
+        }
+    }
+}
+
+.@{FoodTabBar} {
+    background-color: #fff;
+    margin-bottom: 10px;
+
+    .foodConMessage {
+        margin: 5px 15px;
+
+        img {
+            float: left;
+            width: 120px;
+        }
+
+        .right {
+            display: inline-block;
+            margin: 0 10px;
+            width: 190px;
+
+            p {
+                font-size: 18px;
+                margin: 8px 0;
+            }
+
+            .con {
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 3;
+                overflow: hidden;
+            }
+            .more{
+                text-align: center;
+                margin-top: 15px;
+                color: #ccc;
+                span:first-child{
+                    float: left;
+                    color: #e74c3c;
+                }
+                span:last-child{
+                    float: right;
+                }
+            }
+        }
+    }
+}
