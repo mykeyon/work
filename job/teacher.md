@@ -31,9 +31,9 @@
     1.人大附中昌平学校  小学数学(公立)
         https://mp.weixin.qq.com/s/bNRn9MhrSkM6ekQdyD4vyw
         简历投递
-    2.晋城市城区2020年度公开引进优秀专任教师公告 中学数学 --10人
+XXXX 2.晋城市城区2020年度公开引进优秀专任教师公告 中学数学 --10人
         简历投资
-    3.北京高校毕业生就业网  http://www.bjbys.net.cn/
+AAAA    3.北京高校毕业生就业网  http://www.bjbys.net.cn/
         app; https://job.ncss.cn/student/m/jobs/GUc82XeRaZJduhTCdoSfNi/detail.html
 
 ### 3.26
@@ -58,16 +58,70 @@
         投简历
         http://qd.banyuetanedu.com/a/jszp/285.html
 
-    5. 西安电子辅导员  不能报名以后查看
+AAAA5. 西安电子辅导员  不能报名以后查看
         截至4月12日：18：00
         http://www.banyuetanedu.com/a/jszp/zpxx/zkgg/1368.html
     6. 国家发改委  http://www.banyuetanedu.com/a/sydw/zkxx/zkgg/1349.html
-    7. 4月17日宣讲会
+AAAA7. 4月17日宣讲会
         https://mp.weixin.qq.com/s/OLJXbACXqugg461NZyFJSw
         https://www.bolexiaozhao.com/index.php/Home/Meet/meetonlineinfo/id/69.html
     8. https://mp.weixin.qq.com/s/1RAqY0tzbp12QtHwnGL3fA
 
+### 4.4
+AAAA1.北京西城区教委2020年事业单位公开招聘工作人员（第一批）公告
+        http://rsj.beijing.gov.cn/xxgk/tzgg/202003/t20200330_1748290.html
+        报名时间：
+        2020年4月10日（周五）10:00至2020年4月12日（周日）17:00
+    2.2020北京邮电大学校聘劳动合同制人员招聘62人公告
+        http://www.jszpxx.com/wx2020/106606.html
 
+
+    银行类：
+        工商银行：https://mp.weixin.qq.com/s/QNsp0uMhOTiSMymS3u5dSA
+        兴业银行：http://m.tj.offcn.com/html/2020/03/248885.html?wx=
+        建设银行：https://mp.weixin.qq.com/s/v_EQzWRnKWVzuKf9Vvw39A
+        浦发银行：https://mp.weixin.qq.com/s/fYP_aMZxxZ2BaCLkEkDvNA
+        农业银行：https://mp.weixin.qq.com/s/xSqpk81O0PPHBgAo2tQP5g
+        中国银行：https://mp.weixin.qq.com/s/epeLr75t0gKnOV5fc_2wSA
+### 4.5
+AAAA1.“乡村振兴、人才入津” 云招聘
+        https://mp.weixin.qq.com/s/xQcY8AA0K56_E7-qsGFJzQ
+        开始时间：2020年4月8日至4月30日
+AAAA2.2020北京交通运输职业学院招聘46人公告             -3年工作经验 2人--
+        http://www.jszpxx.com/wx2020/106654.html
+        2020年5月7日上午8时到2020年5月15日下午18时期间登录招聘网站http://zhaopin.bjjt.edu.cn
+    3.京师云才人力资源系统
+        gay521
+        https://eduhr.bnuedu.com/Default.aspx
+    4.2020北京邮电大学校聘劳动合同制人员招聘62人公告
+        投简历
+        http://www.jszpxx.com/wx2020/106606.html
+    5.北京师范大学附属中学平谷第一分校
+        http://www.banyuetanedu.com/a/jszp/zpxx/zkgg/1547.html
+AAAA6.2020年北京市交通委员会所属5家事业单位公开招聘工作人员公告
+        http://www.banyuetanedu.com/a/sydw/zkxx/zkgg/1553.html
+AAAA7.2020年无锡市区教育系统公开招聘教师总公告
+        http://www.banyuetanedu.com/a/jszp/zpxx/zkgg/1545.html
+        报名时间：2020年4月13日9：00至4月17日16：00
+
+AAAA8.2020年南京市第一中学公开招聘教师公告
+        http://www.banyuetanedu.com/a/jszp/zpxx/zkgg/1542.html
+        报名时间： 2020年4月 13日8：00至4月16日17：00。
+AAAA9.烟台大学2020年公开招聘工作人员简章
+        http://www.banyuetanedu.com/a/jszp/zpxx/zkgg/1551.html
+        原：http://rsc.ytu.edu.cn/info/1072/2033.htm
+AAAA10.2020年渭南师范学院专职辅导员招聘公告（26名）
+        http://sn.huatu.com/2020/0327/1026838.html
+        党员证明材料不全
+        截止报名时间：4月30日
+
+
+        
+
+
+### 招聘网站
+    http://5g.jingjia.org/
+    
 论文：http://yyjy.cnkivip.checkpass.net/getreport.html?tid=912081504755712441
 24365：https://job.ncss.cn/student/m/jobs/index.html
     
